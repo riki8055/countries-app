@@ -4,7 +4,7 @@ const country = require('./utils/country')
 const countries = require('./utils/countries')
 
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000
 
 // Define paths for Express config
 const publicDirPath = path.join(__dirname, '../public')
