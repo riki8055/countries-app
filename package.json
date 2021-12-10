@@ -1,0 +1,28 @@
+{
+  "name": "countries-web-server",
+  "version": "1.0.0",
+  "description": "Find and explore about any country around the world.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.js -e js,ejs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riki8055/countries-app.git"
+  },
+  "author": "Ritik Thakur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riki8055/countries-app/issues"
+  },
+  "homepage": "https://github.com/riki8055/countries-app#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "hbs": "^4.2.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
