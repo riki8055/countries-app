@@ -1,12 +1,11 @@
 const getName = (e) => {
     const country = e.id.toLowerCase()
 
-    fetch("http://localhost:3000/country?name=" + country).then((response) => {
+    fetch("/country?name=" + country).then((response) => {
         response.json().then((data) => {
             if(data.error) {
                 console.log(data.error)
             } else {
-                // console.log(data.Flag)
                 const main = document.querySelector('.side-section .country-main')
 
                 main.innerHTML = `

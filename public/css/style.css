@@ -29,7 +29,7 @@ html {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 100;
+  z-index: 101;
 }
 
 .navbar-wrapper {
@@ -86,6 +86,7 @@ section.active {
   background-color: #14213d;
   position: relative;
   transition: opacity 0.5s;
+  z-index: 100;
 }
 
 .section-1-wrapper {
